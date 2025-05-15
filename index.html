@@ -1,42 +1,171 @@
+<!-- 🏷️ CERTIDÃO DE NASCIMENTO DO DOCUMENTO -->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<!-- 
+  Isso diz para o navegador: "Ei, isso aqui é um documento HTML5!"
+  É como o RG da sua página web
+-->
 
+<!-- 🏠 CASA PRINCIPAL -->
+<html lang="pt-BR">
+<!--
+  Tudo dentro desta tag faz parte da página
+  lang="pt-BR" significa: "Todo conteúdo aqui está em Português do Brasil"
+-->
+
+<!-- 👒 CHAPÉU INVISÍVEL -->
 <head>
+<!--
+  Aqui ficam as informações secretas que não aparecem na tela
+  É como a etiqueta de instruções de uma roupa
+-->
+
+    <!-- 🔤 TABELA DE CÓDIGOS SECRETOS -->
     <meta charset="UTF-8">
+    <!--
+      Permite usar acentos, ç, ~ e emojis sem problemas
+      Sem isso, seu texto pode virar uma sopa de letrinhas estranhas
+    -->
+
+    <!-- 📱 CONTROLE DE ZOOM -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+      Faz a página caber direitinho em celulares
+      Imagine que é um ajuste de lente para ver tudo clarinho
+    -->
+
+    <!-- 🏷️ ETIQUETA DA ABA -->
     <title>Portfólio Inicial</title>
+    <!--
+      O nome que aparece na aba do navegador
+      Como o nome na capa de um caderno
+    -->
+
+    <!-- 📃 RESUMO PARA O GOOGLE -->
     <meta name="description" content="Meu primeiro projeto HTML">
+    <!--
+      O texto que aparece embaixo do título nas buscas
+      Como uma sinopse rápida de livro
+    -->
+
 </head>
 
+<!-- 🧍 CORPO DA PÁGINA -->
 <body>
+<!--
+  Tudo que aparece visualmente para o usuário
+  Como a vitrine de uma loja
+-->
+
+    <!-- 🚪 PORTA DE ENTRADA -->
     <header>
+    <!--
+      Área do topo da página, normalmente com logo e menu
+      Como o letreiro de uma loja
+    -->
         <h1>Bem-vindo ao Meu Primeiro Site!</h1>
+        <!--
+          Título Principal (H1):
+          - Só deve existir um por página
+          - Como o nome de um capítulo de livro
+        -->
     </header>
+
+    <!-- 📦 CONTEÚDO PRINCIPAL -->
     <main>
+    <!--
+      O miolo do seu site
+      Onde colocamos as informações mais importantes
+    -->
+
+        <!-- 🧩 SEÇÃO 1 - BIOGRAFIA -->
         <section>
+        <!--
+          Divisão temática do conteúdo
+          Como separar assuntos diferentes em pastas
+        -->
             <h2>Sobre Mim</h2>
-            <p>Sou um entusiasta da tecnologia começando minha jornada no desenvolvimento web.</p>
+            <!--
+              Subtítulo (H2):
+              - Nível 2 de importância
+              - Como os tópicos de um trabalho escolar
+            -->
+            
+            <p>
+            <!--
+              Parágrafo de texto comum
+              Como uma mensagem longa no WhatsApp
+            -->
+                Sou um entusiasta da tecnologia começando minha jornada no desenvolvimento web. 
+                Este é meu primeiro projeto usando HTML puro!
+            </p>
         </section>
+
+        <!-- 🧩 SEÇÃO 2 - PROJETOS -->
         <section>
             <h2>Meus Projetos</h2>
+            
             <ul>
+            <!--
+              Lista Não Ordenada (UL):
+              - Itens com marcadores (bolinhas)
+              - Como uma lista de compras do supermercado
+            -->
                 <li>Página de receitas</li>
+                <!--
+                  Item de Lista (LI):
+                  - Cada ponto da lista
+                  - Como um item da sua lista de compras
+                -->
                 <li>Blog pessoal</li>
+                <li>Galeria de fotos</li>
             </ul>
+
+            <h3>Próximos Passos</h3>
+            <!--
+              Subtítulo Nível 3 (H3):
+              - Subseção dentro de uma H2
+              - Como um subtópico num trabalho
+            -->
+            
+            <ol>
+            <!--
+              Lista Ordenada (OL):
+              - Itens numerados
+              - Como uma receita de bolo com passos numerados
+            -->
+                <li>Aprender CSS para estilização</li>
+                <li>Adicionar imagens e vídeos</li>
+                <li>Criar formulários de contato</li>
+            </ol>
         </section>
-        <h3>Próximos Passos</h3>
-        <ol>
-            <li>Aprender CSS</li>
-            <li>Adicionar imagens</li>
-        </ol>
+
+        <!-- 🧩 SEÇÃO 3 - LINKS -->
         <section>
             <h2>Meu GitHub</h2>
-            <a href="https://github.com/rodolfo-brand" target="_blank">Visitar GitHub</a>
+            <p>
+                Acompanhe meu progresso e projetos:
+                <a href="https://github.com/rodolfo-brand" target="_blank" rel="noopener noreferrer">
+                    Visite meu perfil no GitHub
+                </a>
+                <!--
+                  Link (A):
+                  - Cria conexão com outra página
+                  - Como um túnel para outro lugar
+                  target="_blank" abre em nova aba
+                  rel="noopener noreferrer" é medida de segurança
+                -->
+            </p>
         </section>
-        <footer>
-            <p>© 2025 Todos os direitos reservados</p>
-        </footer>
     </main>
-</body>
 
+    <!-- 🦶 RODAPÉ -->
+    <footer>
+    <!--
+      Área final da página
+      Normalmente tem direitos autorais e links secundários
+    -->
+        <p>© 2025 Todos os direitos reservados - Feito com ❤️ e HTML</p>
+    </footer>
+
+</body>
 </html>
